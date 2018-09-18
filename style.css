@@ -1,0 +1,28 @@
+main{
+  margin: 20px;
+  width: 800px;
+  height: 800px;
+  display: block;
+}
+
+.editor_box, .button_box{
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+
+}
+
+.editor_box{
+  width: 600px;
+  border: 1px solid green;
+}
+
+.button_box{
+  width: 600px;
+  height: 100px;
+}
+
+.btn{
+  margin-left: 10px;
+}
